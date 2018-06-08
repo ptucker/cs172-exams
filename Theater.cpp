@@ -15,6 +15,9 @@
 Theater::Theater(string Name, string Phone)
 {
   numberOfMovies = 0;
+  //PT -- make these const int variables, and initialize them in the header.
+  //      in this way, you can add new constructors, and not have to remember
+  //      to set these prices.
   cokePrice = 5;
   popcornPrice = 5;
  
@@ -57,6 +60,8 @@ int Theater::GetShowTimeForGenre(string Genre)
       return time;
     }
   }
+  //PT -- Make sure to return -1 in the case that the genre was not found.
+  // -2
 }
 
 
