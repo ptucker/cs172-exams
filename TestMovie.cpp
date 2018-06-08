@@ -4,6 +4,16 @@
 // Date: 5/31/18
 // Class: CS 172
 
+/*
+Movie Implementation:   10/10
+Theater Implementation: 18/20
+Passes Tests:           25/25
+UML:                    20/20
+Clean, commented code:  25/25
+
+TOTAL:                  98/100
+
+*/
 
 #include <iostream> 
 #include "Movie.h" 
